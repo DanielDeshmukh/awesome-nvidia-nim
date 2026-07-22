@@ -91,6 +91,8 @@ NIM hosts a large and growing catalog of models. Key categories:
 - [LangGraph + NIM Agents](https://github.com/NVIDIA/GenerativeAIExamples/tree/main/AgentFrameworks) — LangGraph-based multi-agent examples with NIM backends.
 - [cybersentry](https://github.com/prutxvi/cybersentry) — Autonomous AI-powered ethical hacking agent powered by Llama 3.1 70B on NVIDIA NIM.
 - [Blacknode](https://github.com/temiroff/Blacknode) — MCP-native visual workflow framework for AI agents with a node editor and Python export; NIM-supported.
+- [proteus](https://github.com/DanielDeshmukh/proteus) `*new*` — Five-agent JD-aware resume analyzer with NIM pipeline: parse, calibrate, map, rewrite, draft.
+- [CodeSage](https://github.com/DanielDeshmukh/CodeSage) `*new*` — AI codebase examiner for interview prep using 5 specialized NIM models for question generation and scoring.
 
 ## RAG Pipelines
 
@@ -102,6 +104,7 @@ NIM hosts a large and growing catalog of models. Key categories:
 - [Chat-RAG](https://github.com/JakeFurtaw/Chat-RAG) — Gradio-based coding assistant streaming responses, pulling context from GitHub repos and local files, with NIM inference.
 - [nvidia-NIM-RAG](https://github.com/mickymultani/nvidia-NIM-RAG) — Community project demonstrating a NIM-powered RAG pipeline end to end.
 - [NVIDIA_NIM-demo](https://github.com/anirxudh/NVIDIA_NIM-demo) — Streamlit RAG chatbot using NIM embeddings, FAISS, and document loaders.
+- [ella](https://github.com/DanielDeshmukh/ella) `*new*` — Medical triage RAG engine with 90K+ clinical chunks, NIM embeddings + Pinecone. `pip install ella-sdk`
 
 ## Speech, Voice & Healthcare
 
@@ -115,6 +118,7 @@ NIM hosts a large and growing catalog of models. Key categories:
 - [autobot-swarm](https://pypi.org/project/autobot-swarm/) — CLI tool for NIM multi-agent orchestration. Live model discovery, skill injection, swarm configuration. `pip install autobot-swarm`
 - [pi-nvidia-nim](https://github.com/xRyul/pi-nvidia-nim) — NVIDIA NIM provider extension for the `pi` coding agent; access 100+ models from build.nvidia.com with reasoning-level support.
 - [openai Python SDK](https://github.com/openai/openai-python) — Works out-of-the-box with NIM (set `base_url="https://integrate.api.nvidia.com/v1"`).
+- [ella-sdk](https://pypi.org/project/ella-sdk/) `*new*` — Python SDK for medical triage RAG using NIM embeddings + Pinecone. `pip install ella-sdk`
 
 ## Integrations
 
@@ -142,6 +146,9 @@ NIM hosts a large and growing catalog of models. Key categories:
 - [Satark-AI](https://github.com/theunstopabble/Satark-AI) — Multi-model deepfake detection and speaker verification platform using NIM (Llama 3.2-90B Vision) for image detection.
 - [Comfy-Cozy](https://github.com/JosephOIbrahim/Comfy-Cozy) — AI co-pilot for ComfyUI with 129 MCP tools; supports NIM alongside other LLM providers.
 - [AETHER](https://github.com/DanielDeshmukh/aether) — Autonomous pentest platform built on LangGraph + NIM + Playwright.
+- [ella](https://github.com/DanielDeshmukh/ella) `*new*` — Medical triage RAG engine with 90K+ clinical chunks, NIM embeddings + Pinecone + Groq for zero-hallucination patient triage.
+- [proteus](https://github.com/DanielDeshmukh/proteus) `*new*` — Five-agent JD-aware resume analyzer: semantic match scoring, gap analysis, bullet rewrites, and cover letters via NIM pipeline.
+- [CodeSage](https://github.com/DanielDeshmukh/CodeSage) `*new*` — AI codebase examiner for viva/interview prep using 5 specialized NIM models (embed, rerank, question gen, scoring, safety).
 
 ## Tutorials & Blog Posts
 
@@ -154,8 +161,6 @@ NIM hosts a large and growing catalog of models. Key categories:
 
 - [NVIDIA Developer Forums — NIM](https://forums.developer.nvidia.com/c/ai-data-science/nim/535) — Official support and discussion.
 - [r/NVIDIA](https://www.reddit.com/r/nvidia/) — Reddit community.
-
-> Note: links in this section were not independently verified for current activity level — check before relying on them.
 
 ---
 
