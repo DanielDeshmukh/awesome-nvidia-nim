@@ -56,7 +56,6 @@ NVIDIA NIM provides optimized, containerized AI model inference via a simple RES
 
 - [NIM Quickstart Guide](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html) — Get your first API call working in under 5 minutes.
 - [NIM Free Credits](https://build.nvidia.com) — Free credits for new accounts; no GPU required.
-- [OpenAI-Compatible API](https://docs.nvidia.com/nim/large-language-models/latest/openai-api.html) — NIM endpoints are OpenAI-spec compatible; drop-in for any OpenAI SDK client.
 - [Deploy Your Own LLM with NIM](https://github.com/NVIDIA-AI-Blueprints/bring-llms-to-nim) — Containerized deployment blueprint for custom models.
 
 ## Models Available on NIM
@@ -88,7 +87,6 @@ NIM hosts a large and growing catalog of models. Key categories:
 
 - [autobots](https://github.com/DanielDeshmukh/autobots) ⭐ — PyPI-published CLI for spinning up NVIDIA NIM-powered multi-agent swarms. Live model catalog discovery, skill injection, extensive test suite. `pip install autobot-swarm`
 - [NVIDIA NeMo Agent Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit) — Official open-source toolkit for connecting and optimizing agent teams, with MCP/A2A protocol support and NIM as a core backend.
-- [LangGraph + NIM Agents](https://github.com/NVIDIA/GenerativeAIExamples/tree/main/AgentFrameworks) — LangGraph-based multi-agent examples with NIM backends.
 - [cybersentry](https://github.com/prutxvi/cybersentry) — Autonomous AI-powered ethical hacking agent powered by Llama 3.1 70B on NVIDIA NIM.
 - [Blacknode](https://github.com/temiroff/Blacknode) — MCP-native visual workflow framework for AI agents with a node editor and Python export; NIM-supported.
 - [proteus](https://github.com/DanielDeshmukh/proteus) `*new*` — Five-agent JD-aware resume analyzer with NIM pipeline: parse, calibrate, map, rewrite, draft.
@@ -100,7 +98,6 @@ NIM hosts a large and growing catalog of models. Key categories:
 - [RAG with NIM + LangChain](https://github.com/NVIDIA/GenerativeAIExamples/tree/main/RAG) — Production RAG using NIM embeddings + LLM inference.
 - [Hybrid RAG Workbench Example](https://github.com/NVIDIA/workbench-example-hybrid-rag) — RAG project that works interchangeably with build.nvidia.com endpoints, local NIM containers, or HF TGI.
 - [NVIDIA ChatRTX](https://github.com/NVIDIA/ChatRTX) — Personalize a local LLM with your own docs using RAG + TensorRT-LLM + NIM, runs on RTX PCs.
-- [NIM + Qdrant RAG](https://qdrant.tech/documentation/integrations/nvidia-nim/) — Qdrant vector DB integrated with NIM for semantic search.
 - [Chat-RAG](https://github.com/JakeFurtaw/Chat-RAG) — Gradio-based coding assistant streaming responses, pulling context from GitHub repos and local files, with NIM inference.
 - [nvidia-NIM-RAG](https://github.com/mickymultani/nvidia-NIM-RAG) — Community project demonstrating a NIM-powered RAG pipeline end to end.
 - [NVIDIA_NIM-demo](https://github.com/anirxudh/NVIDIA_NIM-demo) — Streamlit RAG chatbot using NIM embeddings, FAISS, and document loaders.
@@ -127,16 +124,11 @@ NIM hosts a large and growing catalog of models. Key categories:
 - [LlamaIndex NIM](https://docs.llamaindex.ai/en/stable/examples/llm/nvidia/) — Use NIM as LLM or embedding provider in LlamaIndex pipelines.
 - [Haystack NIM](https://haystack.deepset.ai/integrations/nvidia) — NVIDIA NIM components for Haystack pipelines.
 - [DSPy + NIM](https://dspy.ai) — Use NIM as the LM backend for DSPy programs.
-- [elizaOS plugin-nvidia-nim](https://github.com/elizaos-plugins/plugin-nvidia-nim) — ElizaOS plugin integrating NIM foundation models for content analysis, image detection, and safety checks.
+
 
 **Vector Stores**
-- [Qdrant](https://qdrant.tech/documentation/integrations/nvidia-nim/) — Native NIM embedding integration.
 - [Milvus](https://milvus.io/docs/integrate_with_nvidia.md) — NVIDIA NIM + Milvus for large-scale vector search.
 - [Weaviate](https://weaviate.io/developers/weaviate/model-providers/nvidia) — NIM embedding and generative modules.
-
-**Infrastructure**
-- [NIM on Docker](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html#deploy-nim) — Self-hosted NIM containers with Docker.
-- [NIM on Kubernetes](https://docs.nvidia.com/nim/large-language-models/latest/k8s-operator.html) — Helm charts and K8s operator for NIM deployments.
 
 ## Example Projects
 
@@ -153,9 +145,9 @@ NIM hosts a large and growing catalog of models. Key categories:
 ## Tutorials & Blog Posts
 
 - [Getting Started with NVIDIA NIM APIs](https://developer.nvidia.com/blog/getting-started-with-nvidia-nim/) — Official NVIDIA walkthrough.
-- [Building Agentic AI with NIM and LangGraph](https://developer.nvidia.com/blog/build-ai-agents-with-nvidia-nim-and-langchain/) — End-to-end agent tutorial.
-- [RAG in 5 Minutes with NIM](https://developer.nvidia.com/blog/rag-101-retrieval-augmented-generation-with-llms/) — Fast RAG setup guide.
-- [NVIDIA NIM: The Inference Layer for Agentic AI](https://blog.langchain.dev/nvidia-nim-and-langchain/) — LangChain blog on the NIM + LangChain integration.
+- [Building Agentic AI with NIM and LangGraph](https://developer.nvidia.com/blog/building-ai-agents-with-nvidia-nim-microservices-and-langchain/) — End-to-end agent tutorial.
+- [RAG in 5 Minutes with NIM](https://developer.nvidia.com/blog/a-simple-guide-to-deploying-generative-ai-with-nvidia-nim/) — Fast RAG setup guide.
+- [NVIDIA NIM: The Inference Layer for Agentic AI](https://developer.nvidia.com/topics/ai/ai-inference?sortBy=developer_learning_library%2Fsort%2Ffeatured_in.inference%3Adesc%2Ctitle%3Aasc) — NVIDIA blog on the NIM + LangChain integration.
 
 ## Community & Discussion
 
